@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Estilizando Texto e Fundos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+            font-size: 36px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: underline;
+        }
+        p {
+            color: #666;
+            font-size: 16px;
+            font-style: italic;
+            line-height: 1.5;
+        }
+        .highlight {
+            color: #f00;
+            background-color: #ffff99;
+            padding: 5px;
+        }
+        .background-image {
+            background-image: url('imagem.png');
+            background-size: auto;
+            background-repeat: no-repeat;
+            padding: 100px;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <h1>Estilizando Texto e Fundos</h1>
+    <p>Este é um parágrafo com <span class="highlight">texto destacado</span> usando CSS.</p>
+    <div class="background-image">
+        <p>Este texto está sobre uma imagem de fundo.</p>
+    </div>
+</body>
+</html>
